@@ -1,0 +1,11 @@
+table {
+  background-color: gold;
+  padding: 5px;
+  border: 1px solid;
+  margin-top: 5vh;
+  margin-left: 5vh;
+}
+
+table > thead > tr {
+  border: 1px solid;
+}

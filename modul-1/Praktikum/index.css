@@ -1,0 +1,43 @@
+.navbar-brand > img {
+  width: 60%;
+}
+
+.navbar-brand {
+  margin-left: 5vh;
+}
+
+body {
+  background-image: url("./assets/hero.jpg");
+}
+
+/* .custom-navbar {
+  margin-right: 5vh;
+} */
+
+.nav-item > .btn {
+  padding: 8px 30px 8px 30px;
+  border-radius: 10px;
+}
+
+.custom-navbar > li {
+  padding-left: 5px;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.contents {
+  margin-left: 10vh;
+  color: white;
+}
+
+span {
+  color: gold;
+}
+
+footer {
+  background-color: white;
+}
