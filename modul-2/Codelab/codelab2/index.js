@@ -4,7 +4,7 @@ function onRegister() {
   const address = document.getElementById("alamat").value;
 
   if (name === "" || email === "" || address === "") {
-    alert("Anda Harus Mengisi Data Yang Lengkap");
+    alert("Anda Harus Mengisi Data Dengan Lengkap!");
   } else {
     alert(
       "Nama Lengkap : " + name + "\nEmail : " + email + "\nAlamat : " + address
