@@ -1,0 +1,47 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: black;
+}
+
+.navbar-toggler {
+  border: 1px solid transparent;
+  border-color: transparent;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  border-color: #ff9955;
+}
+
+.navbar .navbar-toggler .toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #ff9955;
+  margin: 5px 0;
+  display: block;
+  position: relative;
+}
+
+.custom-pills .nav-link.active {
+  background-color: rgb(189, 187, 187);
+  color: #000000;
+}
+
+.custom-pills .nav-link {
+  color: #ffffff;
+}
+
+.custom-pills .nav-link:hover {
+  background-color: #f5ca7a;
+  color: black;
+}
+
+.custom-pills > li {
+  margin-left: 15px;
+}
+
+img {
+  margin-left: 5vh;
+}

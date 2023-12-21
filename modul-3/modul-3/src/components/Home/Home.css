@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Bahnschrift";
+  src: url(../../assets/fonts/Bahnschrift.otf) format("opentype");
+}
+
+#home {
+  background-color: black;
+}
+
+.home-page > img {
+  width: 100%;
+}
+
+.start-button {
+  border-color: transparent;
+  border-radius: 10px;
+  background-color: rgb(245, 202, 122);
+  padding: 10px 20px 10px 20px;
+
+  font-size: 16px;
+
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.start-button:hover {
+  background-color: floralwhite;
+  color: black;
+  box-shadow: var(--shadow-2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-page > p {
+  font-size: 20px;
+  line-height: normal;
+  font-weight: bold;
+}
+
+@media (max-width: 580px) {
+  .start-button {
+    margin-top: 1vh;
+    margin-left: 4vh;
+  }
+
+  .home-page > p {
+    margin-top: 1vh;
+    margin-left: 4vh;
+  }
+}
+@media (min-width: 601px) {
+  .start-button {
+    margin-top: 1vh;
+    margin-left: 9vh;
+  }
+
+  .home-page > p {
+    margin-left: 9vh;
+  }
+}
+@media (min-width: 992px) {
+  .start-button {
+    margin-top: 2vh;
+    margin-left: 14vh;
+  }
+
+  .home-page > p {
+    margin-left: 14vh;
+  }
+}
+@media (max-width: 600px) {
+  .start-button {
+    margin-top: 1vh;
+    margin-left: 8vh;
+  }
+
+  .home-page > p {
+    margin-top: 1vh;
+    margin-left: 8vh;
+  }
+}

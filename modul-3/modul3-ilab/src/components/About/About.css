@@ -1,0 +1,17 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.about-content {
+  text-align: justify;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}

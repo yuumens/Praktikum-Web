@@ -1,14 +1,13 @@
 import React from 'react'
 import Navbar from './navbar'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 const Header = () => {
+    const navigate = useNavigate();
   return (
     <div>
         <Navbar/>
-        <NavLink to={'/'}>
-        <button type="button">Home</button>
-        </NavLink>
+        <button type="button" onClick={() => navigate('/')}>Home</button>
         <NavLink to={'/about'}>
         <button type="button">About</button>
         </NavLink>

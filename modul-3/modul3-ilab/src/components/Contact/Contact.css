@@ -1,0 +1,27 @@
+.contact {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.contact Form {
+  max-width: 400px;
+}
+
+.contact Form Label {
+  font-weight: bold;
+}
+
+.contact Form .btn {
+  margin-top: 20px;
+}

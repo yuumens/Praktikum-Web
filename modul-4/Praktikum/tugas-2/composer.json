@@ -1,0 +1,13 @@
+{
+  "name": "yumens/notes-app",
+  "description": "A simple notes application",
+  "type": "project",
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Notes\\": "Notes/"
+    }
+  }
+}

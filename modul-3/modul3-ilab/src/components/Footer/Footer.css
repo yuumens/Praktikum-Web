@@ -1,0 +1,134 @@
+/*===== FOOTER ONE =====*/
+.footer-one {
+  background-color: rgb(243, 243, 243);
+}
+
+.footer-logo {
+  margin-left: -2vh;
+}
+
+.footer-logo img {
+  margin-top: 4vh;
+  margin-bottom: 3vh;
+  height: 200%;
+}
+
+.footer-one .f-about .text {
+  margin-left: -8vh;
+  font-size: large;
+  color: black;
+}
+
+.footer-one .footer-logo {
+  margin-top: 10px;
+}
+.footer-one .footer-widget {
+  padding-top: 70px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-one .footer-widget {
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .footer-one .footer-widget {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}
+.footer-one .footer-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: black;
+  position: relative;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer-one .footer-app-store li {
+    margin-right: 6px;
+  }
+}
+.footer-one .footer-app-store li:last-child {
+  margin-right: 0;
+}
+@media (max-width: 767px) {
+  .footer-one .footer-app-store li {
+    width: 120px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .footer-one .footer-app-store li:last-child {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .footer-one .footer-app-store li {
+    width: auto;
+  }
+}
+
+.footer-one .f-about {
+  margin-top: 30;
+}
+.footer-one .f-about .text {
+  margin-top: 20px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 1400px) {
+  .footer-one .f-about {
+    padding-right: 200px;
+  }
+}
+.footer-one .footer-link {
+  margin-left: -2vh;
+}
+.footer-one .footer-link ul {
+  margin-top: 8px;
+}
+.footer-one .footer-link ul a {
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  margin-top: 16px;
+  margin-left: -3vh;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .footer-one .footer-link ul a {
+    margin-top: 12px;
+  }
+}
+.footer-one .footer-link ul a:hover {
+  text-decoration: none;
+}
+.footer-one .footer-contact {
+  margin-left: -3vh;
+}
+.footer-one .footer-contact ul {
+  margin-left: -5vh;
+  margin-top: 24px;
+}
+.footer-one .footer-contact ul li {
+  display: flex;
+  margin-top: 30px;
+  position: relative;
+  padding-left: 24px;
+  color: black;
+}
+.footer-one .footer-contact ul li:first-child {
+  margin: 0;
+}
+.footer-one .footer-contact ul li img {
+  margin-right: 2vh;
+  width: 18px;
+  height: 20px;
+}

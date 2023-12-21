@@ -1,0 +1,51 @@
+#about {
+  background-color: black;
+  height: 100vh;
+}
+
+.about-wrapper {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.about-wrapper > img {
+  width: 50%;
+}
+
+.about-heading > h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Bahnschrift", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.pilar_abouts-texts {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pilar_about-filosofi,
+.pilar_about-filosofis {
+  flex: 2;
+  font-size: 16px;
+  font-family: "Bahnschrift", sans-serif;
+  color: white;
+  padding: 25px;
+  margin: 0 10px;
+  text-align: justify;
+}
+
+.pilar_about-filosofi > h2,
+.pilar_about-filosofis > h2 {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.pilar_about-filosofi > p,
+.pilar_about-filosofis > p {
+  color: white;
+}
